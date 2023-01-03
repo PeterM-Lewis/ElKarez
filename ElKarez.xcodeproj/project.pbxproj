@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D2C3888294E63730054F5D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D2C3887294E63720054F5D2 /* GoogleService-Info.plist */; };
+		3D598476294936B7003DB8EE /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D598475294936B7003DB8EE /* VideosViewController.swift */; };
+		3D8114B329491A8F00EB4E05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8114B229491A8F00EB4E05 /* AppDelegate.swift */; };
+		3D8114B529491A8F00EB4E05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8114B429491A8F00EB4E05 /* SceneDelegate.swift */; };
+		3D8114B729491A8F00EB4E05 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8114B629491A8F00EB4E05 /* HomeViewController.swift */; };
+		3D8114BA29491A9000EB4E05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8114B829491A9000EB4E05 /* Main.storyboard */; };
+		3D8114BC29491A9700EB4E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8114BB29491A9700EB4E05 /* Assets.xcassets */; };
+		3D8114BF29491A9700EB4E05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8114BD29491A9700EB4E05 /* LaunchScreen.storyboard */; };
+		3D8114CB2949299C00EB4E05 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D8114CD2949299C00EB4E05 /* Localizable.strings */; };
+		748D5F84BAB46BA2E3887F6B /* Pods_ElKarez.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10548D62C5F06D7E843D1E70 /* Pods_ElKarez.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10548D62C5F06D7E843D1E70 /* Pods_ElKarez.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElKarez.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D2C3887294E63720054F5D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3D598475294936B7003DB8EE /* VideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosViewController.swift; sourceTree = "<group>"; };
+		3D8114AF29491A8F00EB4E05 /* ElKarez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElKarez.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8114B229491A8F00EB4E05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D8114B429491A8F00EB4E05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D8114B629491A8F00EB4E05 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3D8114B929491A9000EB4E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D8114BB29491A9700EB4E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D8114BE29491A9700EB4E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D8114C029491A9700EB4E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D8114C629491B2300EB4E05 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		3D8114C729491B2300EB4E05 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		3D8114CC2949299C00EB4E05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3D8114CE2949299E00EB4E05 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		594554E31F08EF2C4C66BE55 /* Pods-ElKarez.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElKarez.release.xcconfig"; path = "Target Support Files/Pods-ElKarez/Pods-ElKarez.release.xcconfig"; sourceTree = "<group>"; };
+		FB051FF55AC926F91E6F9493 /* Pods-ElKarez.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElKarez.debug.xcconfig"; path = "Target Support Files/Pods-ElKarez/Pods-ElKarez.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D8114AC29491A8F00EB4E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				748D5F84BAB46BA2E3887F6B /* Pods_ElKarez.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2855E1290FFFA8288256FDB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10548D62C5F06D7E843D1E70 /* Pods_ElKarez.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D59847429493593003DB8EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D8114B829491A9000EB4E05 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D8114A629491A8F00EB4E05 = {
+			isa = PBXGroup;
+			children = (
+				3D8114B129491A8F00EB4E05 /* ElKarez */,
+				3D8114B029491A8F00EB4E05 /* Products */,
+				8EE5E86D68ED784A0F8732CB /* Pods */,
+				2855E1290FFFA8288256FDB6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D8114B029491A8F00EB4E05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D8114AF29491A8F00EB4E05 /* ElKarez.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D8114B129491A8F00EB4E05 /* ElKarez */ = {
+			isa = PBXGroup;
+			children = (
+				3D8114B229491A8F00EB4E05 /* AppDelegate.swift */,
+				3D8114B429491A8F00EB4E05 /* SceneDelegate.swift */,
+				3D59847429493593003DB8EE /* Views */,
+				3D8114C829491B4200EB4E05 /* Controllers */,
+				3D8114BB29491A9700EB4E05 /* Assets.xcassets */,
+				3D8114BD29491A9700EB4E05 /* LaunchScreen.storyboard */,
+				3D8114C029491A9700EB4E05 /* Info.plist */,
+				3D2C3887294E63720054F5D2 /* GoogleService-Info.plist */,
+				3D8114CD2949299C00EB4E05 /* Localizable.strings */,
+			);
+			path = ElKarez;
+			sourceTree = "<group>";
+		};
+		3D8114C829491B4200EB4E05 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D8114B629491A8F00EB4E05 /* HomeViewController.swift */,
+				3D598475294936B7003DB8EE /* VideosViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8EE5E86D68ED784A0F8732CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB051FF55AC926F91E6F9493 /* Pods-ElKarez.debug.xcconfig */,
+				594554E31F08EF2C4C66BE55 /* Pods-ElKarez.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D8114AE29491A8F00EB4E05 /* ElKarez */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D8114C329491A9700EB4E05 /* Build configuration list for PBXNativeTarget "ElKarez" */;
+			buildPhases = (
+				37672CAC9C1F4F74071AA6B5 /* [CP] Check Pods Manifest.lock */,
+				3D8114AB29491A8F00EB4E05 /* Sources */,
+				3D8114AC29491A8F00EB4E05 /* Frameworks */,
+				3D8114AD29491A8F00EB4E05 /* Resources */,
+				E6D8D505304A1A72BDC3DFE4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElKarez;
+			productName = ElKarez;
+			productReference = 3D8114AF29491A8F00EB4E05 /* ElKarez.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D8114A729491A8F00EB4E05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3D8114AE29491A8F00EB4E05 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3D8114AA29491A8F00EB4E05 /* Build configuration list for PBXProject "ElKarez" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = 3D8114A629491A8F00EB4E05;
+			productRefGroup = 3D8114B029491A8F00EB4E05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D8114AE29491A8F00EB4E05 /* ElKarez */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D8114AD29491A8F00EB4E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8114BF29491A9700EB4E05 /* LaunchScreen.storyboard in Resources */,
+				3D8114CB2949299C00EB4E05 /* Localizable.strings in Resources */,
+				3D2C3888294E63730054F5D2 /* GoogleService-Info.plist in Resources */,
+				3D8114BC29491A9700EB4E05 /* Assets.xcassets in Resources */,
+				3D8114BA29491A9000EB4E05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37672CAC9C1F4F74071AA6B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElKarez-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6D8D505304A1A72BDC3DFE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElKarez/Pods-ElKarez-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElKarez/Pods-ElKarez-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ElKarez/Pods-ElKarez-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D8114AB29491A8F00EB4E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8114B729491A8F00EB4E05 /* HomeViewController.swift in Sources */,
+				3D8114B329491A8F00EB4E05 /* AppDelegate.swift in Sources */,
+				3D598476294936B7003DB8EE /* VideosViewController.swift in Sources */,
+				3D8114B529491A8F00EB4E05 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D8114B829491A9000EB4E05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D8114B929491A9000EB4E05 /* Base */,
+				3D8114C629491B2300EB4E05 /* ar */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D8114BD29491A9700EB4E05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D8114BE29491A9700EB4E05 /* Base */,
+				3D8114C729491B2300EB4E05 /* ar */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3D8114CD2949299C00EB4E05 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D8114CC2949299C00EB4E05 /* en */,
+				3D8114CE2949299E00EB4E05 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D8114C129491A9700EB4E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D8114C229491A9700EB4E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D8114C429491A9700EB4E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB051FF55AC926F91E6F9493 /* Pods-ElKarez.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ElKarez/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PML.ElKarez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D8114C529491A9700EB4E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 594554E31F08EF2C4C66BE55 /* Pods-ElKarez.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ElKarez/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PML.ElKarez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D8114AA29491A8F00EB4E05 /* Build configuration list for PBXProject "ElKarez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8114C129491A9700EB4E05 /* Debug */,
+				3D8114C229491A9700EB4E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D8114C329491A9700EB4E05 /* Build configuration list for PBXNativeTarget "ElKarez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8114C429491A9700EB4E05 /* Debug */,
+				3D8114C529491A9700EB4E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D8114A729491A8F00EB4E05 /* Project object */;
+}
